@@ -5,5 +5,10 @@ public class booleanCharDataType {
 
         // Width of the char
         System.out.println(Character.SIZE);
+
+        boolean myTrueBooleanValue = true;
+        boolean myFalseBooleanValue = false;
+
+        
     }
 }

@@ -9,5 +9,12 @@ public class convertPK {
 
         double convertedValue = numberOfPound * kiloPerPound;
         System.out.println(convertedValue);
+
+        //Unicode Character
+        char myUniCode = '\u0044'; // u0044 is for unicode
+        System.out.println(myUniCode); // This will print D
+
+        char myDecimelCode = 68;
+        System.out.println(myDecimelCode);
     }   
 }
