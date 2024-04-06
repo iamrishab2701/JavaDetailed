@@ -1,3 +1,5 @@
+package basics;
+
 public class FloatingPointNumber {
 
     public static void main(String[] args) {

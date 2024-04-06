@@ -1,3 +1,5 @@
+package basics;
+
 public class JavaOperations {
     public static void main(String[] args) {
         

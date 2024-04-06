@@ -1,3 +1,5 @@
+package basics;
+
 public class booleanCharDataType {
     public static void main(String[] args) {
         //Initializing char data type

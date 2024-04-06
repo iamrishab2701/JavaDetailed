@@ -1,3 +1,5 @@
+package basics;
+
 public class AbbriviatingOperator {
     public static void main(String[] args) {
         

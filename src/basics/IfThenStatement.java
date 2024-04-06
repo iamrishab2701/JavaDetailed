@@ -1,3 +1,5 @@
+package basics;
+
 public class IfThenStatement {
 
     public static void main(String[] args) {
