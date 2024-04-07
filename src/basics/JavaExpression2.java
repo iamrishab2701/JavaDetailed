@@ -1,6 +1,6 @@
-package KeywordsAndExpressions;
+package basics;
 
-public class JavaExpression {
+public class JavaExpression2 {
 
     public static void main(String[] args) {
         

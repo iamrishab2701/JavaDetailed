@@ -1,4 +1,4 @@
-package KeywordsAndExpressions;
+package basics;
 
 public class IfElseCodeBlock {
 
