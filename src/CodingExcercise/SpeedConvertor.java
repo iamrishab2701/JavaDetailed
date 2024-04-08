@@ -3,7 +3,7 @@ package CodingExcercise;
 public class SpeedConvertor {
 
     public static void main(String[] args) {
-        
+        printConversion(5.0);
     }
     /*
      * Write a method call to MilesPerHour that has 1 parameter of type double with
@@ -119,20 +119,20 @@ public class SpeedConvertor {
 
     public static long toMilesPerHour(double kilometersPerHour)
      {
-        double milesPerHourConversion = 1.609;
         if(kilometersPerHour < 0)
         {
             return -1;
         }else{
-            double milesPerHour = (kilometersPerHour*milesPerHourConversion);
-            long convertedKiloMeterPerHour Math.round(milesPerHour);
-            return convertedKiloMeterPerHour;
+            return Math.round(kilometersPerHour/1.609);
         }
      }
 
      public static void printConversion(double kilometersPerHour)
      {
-        double convertedMiles = toMilesPerHour(kilometersPerHour)
-        System.out.println(""+kilometersPerHour+"km/h ="+convertedMiles+"mi/h");
+        if (kilometersPerHour < 0) {
+            System.out.println("Invalid Value");
+        }else{
+            System.out.println(""+kilometersPerHour+"km/h = "+(int)toMilesPerHour(kilometersPerHour)+" mi/h");
+        }
      }
 }
