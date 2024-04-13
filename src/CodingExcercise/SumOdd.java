@@ -82,5 +82,4 @@ public class SumOdd {
             return sum;
         }
     }
-
 }
