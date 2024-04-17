@@ -11,6 +11,6 @@ public class booleanCharDataType {
         boolean myTrueBooleanValue = true;
         boolean myFalseBooleanValue = false;
 
-        
+
     }
 }

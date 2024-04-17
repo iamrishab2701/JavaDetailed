@@ -1,8 +1,7 @@
 package basics;
 
 public class Variables {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         //Initializing the variable //Declaration Statement
         int myFirstNumber = 5; //Int is the data type and the = is assignment operator
         System.out.println(myFirstNumber);
@@ -10,7 +9,7 @@ public class Variables {
         System.out.println(myFirstNumber);
 
         //Sum of two numbers
-        myFirstNumber = 10+5;
+        myFirstNumber = 10 + 5;
         System.out.println(myFirstNumber);
     }
 }

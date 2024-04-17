@@ -31,8 +31,8 @@ public class SwitchStatement {
         System.out.println(month + " is in the " + getQuarter(month) + " quarter");
     }
 
-    public static String getQuarter(String month){
-     
+    public static String getQuarter(String month) {
+
         //Classic Switch
         // switch (month) {
         //     case "JANUARY":
@@ -57,11 +57,13 @@ public class SwitchStatement {
 
         //Enhanced Switch
 
-        return switch (month){
-            case "JANUARY", "FEBRUARY", "MARCH" -> {yield "1st";}
+        return switch (month) {
+            case "JANUARY", "FEBRUARY", "MARCH" -> {
+                yield "1st";
+            }
             case "APRIL", "MAY", "JUNE" -> "2nd";
-            case "JULY", "AUGUST","SEPTEMBER" -> "3rd";
-            case "OCTOBER","NOVEMBER", "DECEMBER" -> "4th";
+            case "JULY", "AUGUST", "SEPTEMBER" -> "3rd";
+            case "OCTOBER", "NOVEMBER", "DECEMBER" -> "4th";
             default -> {
                 String badResponse = month + " is bad";
                 yield badResponse; //yield is a new keyword to use it in switch keyword to return a value.

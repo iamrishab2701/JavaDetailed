@@ -22,14 +22,14 @@ public class MainChallenge {
             System.out.println("Your final score was " + finalScore);
         }
 
-        
+
         if (gameOver) {
             score = 10000;
             levelCompleted = 8;
             bonus = 200;
             finalScore = score;
-            finalScore +=(levelCompleted * bonus);
-            System.out.println("Your final score on "+levelCompleted+" was " + finalScore);
+            finalScore += (levelCompleted * bonus);
+            System.out.println("Your final score on " + levelCompleted + " was " + finalScore);
         }
 
     }

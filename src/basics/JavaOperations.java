@@ -2,7 +2,7 @@ package basics;
 
 public class JavaOperations {
     public static void main(String[] args) {
-        
+
         int result = 1 + 2; // + and = is operator, 1 and 2 is operands 
         System.out.println(result);
 
@@ -10,7 +10,8 @@ public class JavaOperations {
         result = result - 1;  // 3 - 1
         System.out.println(result);
 
-        char firstChar = 'A'; char secondChar = 'B';
+        char firstChar = 'A';
+        char secondChar = 'B';
         System.out.println(firstChar + secondChar); // Unicode value will be printing
         System.out.println("" + firstChar + secondChar); // It will print AB
 

@@ -3,12 +3,14 @@ package basics;
 public class FloatingPointNumber {
 
     public static void main(String[] args) {
-        
-        // Min and Max value of float and double
-        System.out.println("float value range("+Float.MIN_VALUE+" to "+Float.MAX_VALUE+")");
-        System.out.println("double value range("+Double.MIN_VALUE+" to "+Double.MAX_VALUE+")");
 
-        int myIntValue = 5; float myFloatValue = 5f; double myDoubleValue = 5d;
+        // Min and Max value of float and double
+        System.out.println("float value range(" + Float.MIN_VALUE + " to " + Float.MAX_VALUE + ")");
+        System.out.println("double value range(" + Double.MIN_VALUE + " to " + Double.MAX_VALUE + ")");
+
+        int myIntValue = 5;
+        float myFloatValue = 5f;
+        double myDoubleValue = 5d;
         System.out.println(myIntValue);
         System.out.println(myDoubleValue);
         System.out.println(myFloatValue);
@@ -17,22 +19,22 @@ public class FloatingPointNumber {
         System.out.println(myOtherFloatValue);
 
         //Challenge
-        float myAnotherFloatValue = (float)5.25;
+        float myAnotherFloatValue = (float) 5.25;
         System.out.println(myAnotherFloatValue);
 
-        myIntValue = 5/2;
+        myIntValue = 5 / 2;
         System.out.println(myIntValue);
 
-        myFloatValue = 5f/2f;
+        myFloatValue = 5f / 2f;
         System.out.println(myFloatValue);
 
-        myDoubleValue = 5d/2d;
+        myDoubleValue = 5d / 2d;
         System.out.println(myDoubleValue);
 
-        myFloatValue = 5f/3f;
+        myFloatValue = 5f / 3f;
         System.out.println(myFloatValue);
 
-        myDoubleValue = 5d/3d;
+        myDoubleValue = 5d / 3d;
         System.out.println(myDoubleValue);
 
 

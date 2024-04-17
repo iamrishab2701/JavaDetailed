@@ -3,7 +3,7 @@ package basics;
 public class JavaString {
 
     public static void main(String[] args) {
-        
+
         // Declaration
         String myString = "This is a String";
         System.out.println("myString is equal to " + myString);
@@ -14,7 +14,8 @@ public class JavaString {
         //Printing String with unicode
         System.out.println("I wish I had \u002432334234323432");
 
-        String lastString = "10"; int myInt = 50;
+        String lastString = "10";
+        int myInt = 50;
         lastString = lastString + myInt; // Concatenation
         System.out.println(lastString);
 
@@ -23,5 +24,5 @@ public class JavaString {
         System.out.println(lastString);
 
     }
-    
+
 }

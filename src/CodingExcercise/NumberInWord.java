@@ -9,18 +9,18 @@ public class NumberInWord {
      * ... "NINE", "OTHER" if the int parameter number is 0, 1, 2, .... 9 or other
      * for any other number including negative numbers. You can use if-else
      * statement or switch statement whatever is easier for you.
-     * 
-     * 
-     * 
+     *
+     *
+     *
      * NOTE: Method printNumberInWord needs to be public static for now, we are only
      * using static methods.
-     * 
+     *
      * NOTE: Do not add main method to solution code.
-     * 
+     *
      * The objective of this coding exercise is to write a small program that prints
      * out the word of the number.
-     * 
-     * 
+     *
+     *
      */
 
     public static void main(String[] args) {

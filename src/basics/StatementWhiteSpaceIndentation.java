@@ -19,7 +19,7 @@ public class StatementWhiteSpaceIndentation {
         myVariable--;
         System.out.println("myVariable = " + myVariable); // Not recommended
 
-        if(myVariable == 0){
+        if (myVariable == 0) {
             System.out.println("It's is now zero");
         }
     }

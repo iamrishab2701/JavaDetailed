@@ -5,18 +5,18 @@ public class MethodChallenge {
     /*
      * In this challenge we're going to create two methods
      * The first method should be named displayHighScorePosition
-     * 
+     *
      * This method should have two parameters, one for a player's name, and one for
      * player position in a high score list
-     * 
+     *
      * This method should print a message like "Tim managed to get into position 2
      * on the high score list".
-     * 
+     *
      * This second method should be name calculateHighScorePosition.
      * This method should have only one parameter, the player's score.
      * This method should return a number between 1 and 4, based on below score
      * values
-     * 
+     *
      * Score greater than or equal to 1000 - 1
      * Score greater than or equal to 500 but less than 1000 - 2
      * Score greater than or equal to 100 but less than 500 - 3
