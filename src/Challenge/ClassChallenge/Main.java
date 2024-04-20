@@ -4,11 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ABCBank bobsAccount = new ABCBank(123455,
-                1000.00,
-                "Bob",
-                "bob@bob.com",
-                "43423423423");
+//        ABCBank bobsAccount = new ABCBank(123455,
+//                1000.00,
+//                "Bob",
+//                "bob@bob.com",
+//                "43423423423");
+
+        ABCBank bobsAccount = new ABCBank();
+        ABCBank mikeAccount = new ABCBank("Mike", "mik@mik.com", "342432423432");
 
         System.out.println(bobsAccount.getAccountBalance());
         System.out.println(bobsAccount.getAccountNumber());

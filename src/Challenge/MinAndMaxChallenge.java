@@ -36,9 +36,9 @@ public class MinAndMaxChallenge {
                 currentValue = Double.parseDouble(numberString);
                 if (currentValue < previousValue) {
                     System.out.println("MIN Value is " + currentValue + " and MAX Value is " + previousValue);
-                } else if(currentValue == previousValue){
+                } else if (currentValue == previousValue) {
                     System.out.println("Quiting the loop as Previous and Current Value are same");
-                }else{
+                } else {
                     System.out.println("MIN Value is " + previousValue + " and MAX Value is " + currentValue);
                 }
             } catch (NumberFormatException badValue) {

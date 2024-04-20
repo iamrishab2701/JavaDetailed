@@ -39,15 +39,20 @@ public class ABCBank {
 
     // Constructor
     public ABCBank() {
+        this(56789, 2.50, "Default Name", "default@email.com", "342432423423"); // Constructor Chaining
         System.out.println("Empty Constructor Called");
     }
 
     public ABCBank(int accountNumber, double accountBalance, String customerName, String Email, String phoneNumber) {
+        this("Mike", "asd@ad.com", "342098432432");
         this.accountBalance = accountBalance;
         this.accountNumber = accountNumber;
+    }
+
+    public ABCBank(String customerName, String email, String phoneNumber) {
         this.customerName = customerName;
-        this.Email = Email;
-        this.PhoneNumber = phoneNumber;
+        Email = email;
+        PhoneNumber = phoneNumber;
     }
 
     public void deposit(double amount) {
@@ -64,45 +69,44 @@ public class ABCBank {
         }
     }
 
-    public void setAccountNumber(int accountNumber) {
-        this.accountNumber = accountNumber;
-    }
-
-    public void setAccountBalance(double accountBalance) {
-        this.accountBalance = accountBalance;
-    }
-
-    public void setCustomerName(String customerName) {
-        this.customerName = customerName;
-    }
-
-    public void setEmail(String email) {
-        Email = email;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        PhoneNumber = phoneNumber;
-    }
-
-
     public int getAccountNumber() {
         return accountNumber;
+    }
+
+    public void setAccountNumber(int accountNumber) {
+        this.accountNumber = accountNumber;
     }
 
     public double getAccountBalance() {
         return accountBalance;
     }
 
+    public void setAccountBalance(double accountBalance) {
+        this.accountBalance = accountBalance;
+    }
+
     public String getCustomerName() {
         return customerName;
+    }
+
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
     }
 
     public String getEmail() {
         return Email;
     }
 
+    public void setEmail(String email) {
+        Email = email;
+    }
+
     public String getPhoneNumber() {
         return PhoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        PhoneNumber = phoneNumber;
     }
 
 
