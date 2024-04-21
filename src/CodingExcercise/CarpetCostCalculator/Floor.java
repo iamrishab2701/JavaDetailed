@@ -72,7 +72,7 @@ NOTE: Do not add a main method to the solution code.
     private double width;
     private double length;
 
-    public Floor(int width, int length) {
+    public Floor(double width, double length) {
         if (width < 0) {
             this.width = 0;
         } else {
