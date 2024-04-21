@@ -1,4 +1,4 @@
-package Challenge.CustructorChallenge;
+package Challenge.ConstructorChallenge;
 
 public class Customer {
 

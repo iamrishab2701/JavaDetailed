@@ -1,4 +1,4 @@
-package basics2;
+package basics2.EncapsulationGetterSetter;
 
 public class Main {
 
