@@ -56,7 +56,7 @@ getBucketCount(7.25, 4.3, 2.35); → should return 14 since the wall area is 31.
 
 
 
-3. In some cases, Bob does not know the width and height of the wall but he knows the area of a wall. He needs you to write another method.
+3. In some cases, Bob does not know the width and height of the wall, but he knows the area of a wall. He needs you to write another method.
 
 Write another overloaded method named getBucketCount with 2 parameters namely, area and areaPerBucket (both of type double).
 
