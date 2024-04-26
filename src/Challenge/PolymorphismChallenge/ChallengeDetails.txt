@@ -1,0 +1,17 @@
+The Challenge, the Car Class Diagram
+
+Let's talk about what I want you to do in this challenge
+
+    - A base class, Car, with one field, description, and three methods startEngine(), drive() and runEngin()
+    - The first two methods should be declared as public.
+    - The method runEngine however, is protected, and it will only get called from the driver method in Car
+
+    - Now we have the GasPoweredCar, the Electric Car, and the HybridCar.
+    - You can imagine that these three subclasses, might have different ways to start their engine, or drive, depending
+      on their engine type.
+    - And each of these classes might have different variables or fields, that might be used in those methods.
+
+    - It's your job, to create this class structure in Java, and override some, or maybe all of these methods appropriately.
+    - And you'll write code in a Main class and main method, that creates an instance of each of these classes and that
+      executes different behavior for each instance.
+    - At least one method should print the type of the runtime object.
