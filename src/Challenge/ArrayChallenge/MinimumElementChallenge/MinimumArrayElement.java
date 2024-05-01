@@ -7,7 +7,7 @@ public class MinimumArrayElement {
 
     public static void main(String[] args) {
 
-        int[] userArray = readIntegers(5);
+        int[] userArray = readIntegers();
         System.out.println(Arrays.toString(userArray));
         int minElement = findMin(userArray);
         System.out.println("Minimum element is " + minElement);
@@ -15,14 +15,18 @@ public class MinimumArrayElement {
     }
 
 
-    private static int[] readIntegers(int length) {
+    private static int[] readIntegers() {
         Scanner scanner = new Scanner(System.in);
-        int[] integerArray = new int[length];
-        System.out.println("Enter numbers");
-        for (int i = 0; i < length; i++) {
-            integerArray[i] = scanner.nextInt();
+        System.out.println("Enter a list of integers, separated by commas");
+        String input = scanner.nextLine();
+
+        String[] splits = input.split(",");
+        int[] values = new int[splits.length];
+
+        for(int i = 0; i < splits.length; i++){
+            values[i] = Integer.parseInt(splits[i].trim());
         }
-        return integerArray;
+        return values;
     }
 
     private static int findMin(int[] array) {
